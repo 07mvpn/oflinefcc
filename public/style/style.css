@@ -1,0 +1,121 @@
+
+.button-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  background-color: #fff; /* Add background color if needed */
+  padding: 10px; /* Add padding if needed */
+  border-top: 1px solid #ccc; /* Add a border if needed */
+  z-index: 1000; /* Set a higher z-index to make sure it appears above other elements */
+}
+.nav-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff; 
+  background-color: #007BFF; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.profile-btn {
+  /* padding-right: 15px; */
+}
+
+.nav-button:hover {
+  background-color: #0056b3;
+} 
+  /* Mobile Styles */
+@media only screen and (max-width: 600px) {
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-right: 10px; */
+  }
+
+  .nav-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    padding-right: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff; /* Change color as needed */
+    background-color: #007BFF; /* Change background color as needed */
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+
+  .nav-button:hover {
+    background-color: #0056b3; /* Change hover background color as needed */
+  }
+}
+
+.p-test {
+  color: beige;
+}
+
+/* ................ Zone Survivers ............... */
+
+.btn-primary {
+  /* Add your primary button styles here */
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: not-allowed;
+  margin-left: 10px;
+  /* You can add more styling as needed */
+}
+
+/* Add animation styles for the spinner pulse effect */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.spinner-grow {
+  /* Add spinner styles here */
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: text-bottom;
+  border: 0.2em solid currentColor;
+  border-right: 0.2em solid transparent;
+  border-radius: 50%;
+  animation: pulse 0.5s infinite;
+}
+
+/* Visually hidden class for accessibility */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
+.zone-type-section {
+  background-color: #00264e;
+}

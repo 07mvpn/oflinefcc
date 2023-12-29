@@ -1,0 +1,37 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #5334db;
+}
+
+p {
+  color: #555;
+}
+
+.back-link {
+  margin-top: 20px;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #546300;
+  font-weight: bold;
+  border-bottom: 2px solid #546300;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.back-link a:hover {
+  color: #7a1010;
+  border-bottom-color: #7a1010;
+}
+
+
+/* Styles for screens smaller than 600 pixels (typical mobile devices) */
+@media only screen and (max-width: 600px) {
+  .rm {
+    display: none;
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "fcc-the-gurukul-website",
+  "version": "1.0.0",
+  "description": "This is an offline coaching website, generally designed to manage offline data. However, it is ready to transition to online coaching to provide students with easy access to study materials.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "education",
+    "website"
+  ],
+  "author": "MK Sahani",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}

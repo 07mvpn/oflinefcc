@@ -1,0 +1,31 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.container {
+
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.creat-buttom {
+  margin-top: 10px;
+}
+
+.upload-doc {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* Styles for the Image */
+.img-logo {
+  max-width: 100%; /* Make sure the image doesn't exceed its container */
+  height: auto; /* Maintain aspect ratio */
+  border: 2px solid #ddd; /* Add a border */
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  margin-bottom: 10px;
+}
+

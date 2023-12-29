@@ -1,0 +1,69 @@
+<!-- views/index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/style/myprofile.css">
+  <link rel="stylesheet" href="/style/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <title>My Profile </title>
+</head>
+<body>
+  <!-- Include header partial -->
+  <%- include('partials/header') %>
+
+      <div class="container">
+          <div class="row mt-5">
+              <div class="col-md-6 offset-md-3">
+                  <div class="card">
+                      <div class="card-header">
+                          <!-- <img class="img-logo" src="img/logoandname.png" alt=""> -->
+                          <h3 class="text-center">Creat Account</h3>
+                      </div>
+                      <div class="card-body">
+                          <form action="/signup" method="post">
+                              <div class="form-group">
+                                  <label for="username">Name</label>
+                                  <input type="text" class="form-control" id="username" name="username" required>
+                              </div>
+                              <div class="form-group">
+                                  <label for="email">Email</label>
+                                  <input type="email" class="form-control" id="email" name="email" required>
+                              </div>
+                              <div class="form-group">
+                                  <label for="password">Password</label>
+                                  <input type="password" class="form-control" id="password" name="password" required>
+                              </div>
+                              <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">Newsletter </label>
+                              </div>
+                              <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckCheckedDisabled" checked disabled>
+                                <label class="form-check-label" for="flexSwitchCheckCheckedDisabled">I Agree to all FCC term & Conditions.</label>
+                              </div>
+                              <div class="form-check form-switch">
+                                <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckChecked" checked>
+                                <label class="form-check-label" for="flexSwitchCheckChecked">I Agree to Privacy Policy.</label>
+                              </div>                        
+                              <button type="submit" class="btn btn-primary btn-block creat-buttom">Creat Account</button>
+                          </form>
+                          <a href="partials/advance-signup.ejs" class="advance-signup"> <button type="submit" class="btn btn-Secondary creat-buttom">Advance Registration  </a></button>
+                          <button type="submit" class="btn btn-success creat-buttom">Log-in</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  
+  <div class="button-container">
+    <a href="/" class="nav-button">Home</a>
+    <a href="/explore" class="nav-button">Zone</a>
+    <a href="/learn" class="nav-button">Learn</a>
+    <a href="/myprofile" class="nav-button">Profile</a>
+  </div>
+  <div style="padding-bottom: 1500px;"></div>
+  <!-- Include footer partial -->
+  <%- include('partials/footer') %>
+</body>
+</html>

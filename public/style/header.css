@@ -1,0 +1,78 @@
+/* Navbar styling */
+.navbar {
+  background-color: #f8f9fa; /* Set your desired background color */
+}
+
+/* Navbar brand styling */
+.navbar-brand {
+  color: #007bff; /* Set your desired text color */
+  font-weight: bold;
+}
+
+/* Navbar links styling */
+.navbar-nav .nav-link {
+  color: #007bff; /* Set your desired text color */
+}
+
+/* Active link styling */
+.navbar-nav .nav-link.active {
+  font-weight: bold;
+}
+
+/* Disabled link styling */
+.navbar-nav .nav-link.disabled {
+  color: #6c757d; /* Set your desired disabled text color */
+}
+
+/* Dropdown link styling */
+.navbar-nav .nav-item.dropdown:hover .nav-link {
+  color: #0056b3; /* Set your desired text color on hover */
+}
+
+/* Dropdown menu styling */
+.dropdown-menu {
+  background-color: #f8f9fa; /* Set your desired dropdown background color */
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+  color: #007bff; /* Set your desired dropdown item text color */
+}
+
+/* Divider styling */
+.dropdown-divider {
+  border-top: 1px solid #007bff; /* Set your desired divider color */
+}
+
+/* Form input styling */
+.form-control {
+  border-color: #007bff; /* Set your desired input border color */
+}
+
+/* Search button styling */
+.btn-outline-success {
+  color: #28a745; /* Set your desired button text color */
+  border-color: #28a745; /* Set your desired button border color */
+}
+
+/* Search button hover styling */
+.btn-outline-success:hover {
+  background-color: #28a745; /* Set your desired button hover background color */
+  color: #ffffff; /* Set your desired button hover text color */
+}
+
+/* ////////////////  */
+/* Navbar toggler icon styling */
+.navbar-toggler-icon {
+  /* background-color: #007bff; */
+}
+
+/* Navbar toggler button styling */
+.navbar-toggler {
+  border-color: #007bff; /* Set your desired button border color */
+}
+
+/* Navbar toggler button hover styling */
+.navbar-toggler:hover {
+  background-color: #007bff; /* Set your desired button hover background color */
+}

@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  color: #3498db;
+}
+
+p {
+  color: #555;
+}
+
+.back-link {
+  margin-top: 20px;
+}
+
+.back-link a {
+  text-decoration: none;
+  color: #3498db;
+  font-weight: bold;
+  border-bottom: 2px solid #3498db;
+  transition: color 0.3s, border-bottom-color 0.3s;
+}
+
+.back-link a:hover {
+  color: #2980b9;
+  border-bottom-color: #2980b9;
+}
