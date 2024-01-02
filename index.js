@@ -2,7 +2,7 @@
 const express = require('express');
 const app = express();
 const path = require('path');
-const port = 3000;
+const port = 5500;
 
 // Set EJS as the view engine
 app.set('view engine', 'ejs');
@@ -39,6 +39,42 @@ app.get('/zone', (req, res) => {
 
 app.get('/leaderboard', (req, res) => {
   res.render('leaderboard', { message: 'This is ZONE Panel!' });
+});
+
+app.get('/notification', (req, res) => {
+  res.render('notification', { message: 'This is Notification Panel!' });
+});
+
+app.get('/coin', (req, res) => {
+  res.render('coin', { message: '' });
+});
+
+app.get('/trending', (req, res) => {
+  res.render('trending', { message: '' });
+});
+
+app.get('/today', (req, res) => {
+  res.render('today', { message: '' });
+});
+
+app.get('/jobvacancy', (req, res) => {
+  res.render('jobvacancy', { message: '' });
+});
+
+app.get('/edunews', (req, res) => {
+  res.render('edunews', { message: '' });
+});
+
+app.get('/tipstricks', (req, res) => {
+  res.render('tipstricks', { message: '' });
+});
+
+app.get('/zonesurvivors', (req, res) => {
+  res.render('zonesurvivors', { message: '' });
+});
+
+app.get('/newupdates', (req, res) => {
+  res.render('newupdates', { message: '' });
 });
 
 app.get('/registration', (req, res) => {

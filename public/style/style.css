@@ -16,7 +16,7 @@
 }
 .nav-button {
   display: block;
-  width: 100%;
+  width: 90%;
   padding: 10px;
   margin-bottom: 10px;
   text-align: center;
@@ -25,10 +25,6 @@
   background-color: #007BFF; 
   border-radius: 5px;
   transition: background-color 0.3s ease;
-}
-
-.profile-btn {
-  /* padding-right: 15px; */
 }
 
 .nav-button:hover {
@@ -42,9 +38,9 @@
     align-items: center; */
 
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
+    bottom: 5px;
+    left: 5px;
+    width: 90%;
     height: 50px;
     background-color: rgb(230, 230, 230);
   }
@@ -58,7 +54,7 @@
     text-align: center;
     text-decoration: none;
     color: #fff; /* Change color as needed */
-    background-color: #007BFF; /* Change background color as needed */
+    background-color: #00308F; /* Change background color as needed */
     border-radius: 5px;
     transition: background-color 0.3s ease;
   }
@@ -128,3 +124,110 @@
   margin-right: 10px;
 }
 
+.button-nav {
+    background-color: #351e98;
+    width: 100%;
+    height: 40px;
+  
+      display: flex;
+      justify-content: left;
+      align-items: center;
+    position: fixed;
+    width: 100%;
+    bottom: 5px;
+    gap: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+
+
+/* 
+  ////////////////////// */
+
+  .button-nav {
+    display: flex;
+    align-items: center;
+  }
+
+  .button-nav a {
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust the margin as needed */
+    padding: 10px; /* Adjust the padding as needed */
+    border-radius: 5px; /* Optional: Add border-radius for rounded corners */
+  }
+
+  .button-nav a i {
+    margin-right: 5px;
+  }
+
+
+  /* //////////// Creat Account BTN CSS ///////////// */
+
+
+  .button-creat-ac {
+    all: unset;
+    /* display: flex; */
+    align-items: center;
+    position: relative;
+    padding: 0.6em 2em;
+    border: rgb(4, 0, 250) solid 0.15em;
+    border-radius: 0.25em;
+    color: rgb(0, 37, 250);
+    font-size: 1.5em;
+    font-weight: 600;
+    cursor: pointer;
+    overflow: hidden;
+    transition: border 300ms, color 300ms;
+    user-select: none;
+    margin-top: 20px;
+    margin-left: 60px;
+  }
+  
+  .button-creat-ac p {
+    z-index: 1;
+  }
+  
+  .button-creat-ac:hover {
+    color: #212121;
+  }
+  
+  .button-creat-ac:active {
+    border-color: rgb(0, 19, 128);
+  }
+  
+  .button-creat-ac::after, .button-creat-ac::before {
+    content: "";
+    position: absolute;
+    width: 7em;
+    aspect-ratio: 1;
+    background: rgb(21, 30, 114);
+    opacity: 50%;
+    border-radius: 50%;
+    transition: transform 500ms, background 300ms;
+  }
+  
+  .button-creat-ac::before {
+    left: 0;
+    transform: translateX(-8em);
+  }
+  
+  .button-creat-ac-creat-ac::after {
+    right: 0;
+    transform: translateX(8em);
+  }
+  
+  .button-creat-ac:hover:before {
+    transform: translateX(-1em);
+  }
+  
+  .button-creat-ac:hover:after {
+    transform: translateX(1em);
+  }
+  
+  .button-creat-ac:active:before,
+  .button-creat-ac:active:after {
+    background: rgb(98, 0, 128);
+  }
