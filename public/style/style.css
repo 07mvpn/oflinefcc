@@ -37,18 +37,24 @@
   /* Mobile Styles */
 @media only screen and (max-width: 600px) {
   .button-container {
-    display: flex;
+    /* display: flex;
     flex-direction: row;
-    align-items: center;
-    /* margin-right: 10px; */
+    align-items: center; */
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(230, 230, 230);
   }
 
   .nav-button {
     display: block;
-    width: 100%;
-    padding: 10px;
+    /* width: 100%; */
+    /* padding: 10px; */
     margin-bottom: 10px;
-    padding-right: 15px;
+    /* padding-right: 15px; */
     text-align: center;
     text-decoration: none;
     color: #fff; /* Change color as needed */
@@ -58,7 +64,7 @@
   }
 
   .nav-button:hover {
-    background-color: #0056b3; /* Change hover background color as needed */
+    background-color: #4f008f; /* Change hover background color as needed */
   }
 }
 
@@ -117,5 +123,8 @@
 
 
 .zone-type-section {
-  background-color: #00264e;
+  background-color: #311c63;
+  margin-left: 10px;
+  margin-right: 10px;
 }
+

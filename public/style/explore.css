@@ -62,3 +62,30 @@ h1 {
   clip: rect(0, 0, 0, 0);
   border: 0;
 }
+
+
+.bluezone-names {
+  width: 100%;
+  height: auto;
+  /* background-color: rgb(0, 0, 63); */
+  color: #fff;
+}
+
+.zone-section {
+  background-color: rgb(14, 14, 78);
+}
+
+/* CSS for h2 and p elements */
+
+
+.green-zone-section {
+  background-color: rgb(4, 65, 19);
+}
+
+.red-zone-section {
+  background-color: rgb(65, 4, 4);
+}
+
+.newbie-zone-section {
+  background-color: rgb(75, 83, 77);
+}
